@@ -1,0 +1,59 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: blue;
+}
+
+div {
+  width: 90%;
+  background-color: gold;
+}
+
+nav {
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+#salam {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+}
+
+.paragraf1 {
+  color: aqua;
+}
+
+.paragraf1 > b > i {
+  color: #333;
+}
+
+.paragraf1 i {
+  color: blue;
+}
