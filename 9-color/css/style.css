@@ -1,0 +1,72 @@
+* {
+  font-family: tahoma;
+}
+
+body {
+  margin: 5%;
+  background-color: gold;
+}
+
+main {
+  background-color: green;
+  padding: 10px;
+  color: magenta;
+}
+
+h1 {
+  text-align: center;
+  background-color: blueviolet;
+  padding: 5px;
+}
+
+p {
+  background-color: black;
+  text-indent: 30px;
+  padding: 5px;
+  text-align: justify;
+}
+
+h2 {
+  background-color: blue;
+  padding: 2px;
+}
+
+#Keyword {
+  background-color: red;
+}
+
+div li {
+  color: white;
+}
+
+div {
+  padding-bottom: 5px;
+}
+
+#Hexadecimal {
+  background-color: #ff0000;
+}
+
+#RGB {
+  background-color: rgb(255, 0, 0);
+}
+
+#RGBA {
+  background-color: rgb(255, 0, 0);
+}
+
+#HSL {
+  background-color: hsl(0, 100%, 50%);
+}
+
+#HSLA {
+  background-color: hsla(0, 100%, 50%, 0.5);
+}
+
+#Keyword {
+  background-color: WindowText;
+}
+
+#CurrentColor {
+  background-color: currentColor;
+}
