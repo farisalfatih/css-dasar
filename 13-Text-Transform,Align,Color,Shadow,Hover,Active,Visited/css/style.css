@@ -1,0 +1,55 @@
+* {
+  font-family: tahoma;
+}
+
+body {
+  padding: 10%;
+  padding-top: 3%;
+  background-color: blue;
+  color: beige;
+}
+
+main {
+  background-color: rgb(64, 64, 167);
+  padding: 10px;
+}
+
+h1 {
+  background-color: rgb(12, 137, 137);
+  color: rgb(26, 36, 36);
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+  padding-top: 0px;
+}
+
+#Transform {
+  text-transform: uppercase;
+}
+
+#Align {
+  text-align: justify;
+}
+
+#Color {
+  color: greenyellow;
+}
+
+#Shadow {
+  text-shadow: 2px 2px 5px #e20909;
+}
+
+#Hover:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: #00ff00;
+}
+
+a:visited {
+  color: rgb(132, 9, 132);
+}
