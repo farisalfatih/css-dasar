@@ -27,3 +27,7 @@ body {
   height: 250px;
   overflow: scroll;
 }
+
+.navigasi {
+  background-color: blue;
+}
