@@ -1,0 +1,30 @@
+/* Universal Selector */
+* {
+  background-color: rgb(10, 10, 100);
+  color: #efefef;
+}
+
+/* Element Selector */
+h1 {
+  background-color: black;
+}
+
+/* Class Selector */
+.classSelector {
+  background-color: blueviolet;
+}
+
+/* ID Selector */
+#idSelector {
+  background-color: goldenrod;
+}
+
+/* Descendant Selector */
+h2 b {
+  background-color: rgb(189, 13, 81);
+}
+
+/* Child Selector */
+h2 > b {
+  background-color: chartreuse;
+}
