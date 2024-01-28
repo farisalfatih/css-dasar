@@ -1,0 +1,64 @@
+* {
+  font-family: tahoma;
+}
+
+body {
+  background-color: blue;
+  color: #bdc3c7;
+  padding: 1% 20%;
+  text-align: justify;
+}
+
+header {
+  margin: 1% 20%;
+}
+
+h1 {
+  text-align: center;
+  background-color: #bdc3c7;
+  color: coral;
+}
+
+main {
+  display: inline-flex;
+}
+
+.content {
+  width: 22.5%;
+  margin: 1% 2%;
+}
+
+div {
+  padding: 5px;
+}
+
+#satu {
+  background-color: purple;
+  color: gold;
+}
+
+#dua {
+  background-color: #2ecc71;
+  color: #8d6e63;
+}
+
+#tiga {
+  background-color: rgb(17, 194, 218);
+  color: rgb(223, 196, 44);
+}
+
+#empat {
+  background-color: hsl(330, 100%, 75%);
+  color: hsl(0, 0%, 50%);
+}
+
+div h2 {
+  font-size: 1.3em;
+  text-align: center;
+  background-color: #e74c3c;
+}
+
+div p {
+  background-color: #f5f5dc;
+  padding: 4px;
+}

@@ -1,0 +1,54 @@
+* {
+  font-family: tahoma;
+}
+
+body {
+  padding: 3px 10px;
+  background-color: #efefef;
+}
+
+h1 {
+  text-align: center;
+  color: indigo;
+  background-color: burlywood;
+  padding: inherit;
+}
+
+p {
+  text-indent: 20px;
+  padding: inherit;
+}
+
+main {
+  display: inline-flex;
+}
+
+#content {
+  width: 22.5%;
+  margin: 2%;
+  padding: 5px;
+  background-color: darkmagenta;
+}
+
+h2 {
+  font-size: 1.2em;
+  text-align: center;
+  background-color: chartreuse;
+  color: blueviolet;
+  padding: inherit;
+}
+
+#content > p {
+  padding: inherit;
+  background-color: pink;
+  color: blue;
+  margin: 3px;
+}
+
+#paragraf {
+  margin: 1% 20%;
+  text-align: justify;
+  background-color: aqua;
+  padding: inherit;
+  color: rgb(14, 14, 87);
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>CSS Inheritance</title>
+  </head>
+  <body>
+    <h1>CSS Inheritance</h1>
+    <div id="paragraf">
+      <p>
+        In CSS, inheritance refers to the process by which certain properties of
+        a parent element are passed down to its child elements. This allows
+        styles to be applied hierarchically in the HTML document, reducing the
+        need to explicitly define styles for each individual element.
+      </p>
+      <p>
+        Not all CSS properties are inherited. Whether a property is inherited or
+        not depends on the specific property and its default behavior. For
+        example, properties related to font styles, such as font-family,
+        font-size, and color, are typically inherited, while properties related
+        to layout or positioning, such as width, height, and position, are
+        usually not inherited.
+      </p>
+      <p>Here are a few key points about CSS inheritance:</p>
+    </div>
+
+    <main>
+      <div id="content">
+        <h2>Inherited Properties</h2>
+        <p>
+          Some commonly inherited properties include font-related properties
+          (font-family, font-size, font-weight, etc.), text-related properties
+          (color, line-height), and a few others.
+        </p>
+        <p>
+          The default value for inheritance is inherit, but it's often not
+          explicitly needed in most cases.
+        </p>
+      </div>
+
+      <div id="content">
+        <h2>Non-Inherited Properties</h2>
+        <p>
+          Properties related to layout and positioning (e.g., width, height,
+          position) are usually not inherited.
+        </p>
+        <p>
+          The default value for non-inherited properties is often specific to
+          the property itself.
+        </p>
+      </div>
+
+      <div id="content">
+        <h2>Forcing Inheritance</h2>
+        <p>
+          You can explicitly force inheritance using the inherit value. For
+          example: color: inherit; will explicitly inherit the color property
+          from the parent element.
+        </p>
+      </div>
+
+      <div id="content">
+        <h2>Cascade and Specificity</h2>
+        <p>
+          The concept of inheritance is closely related to the broader idea of
+          the CSS cascade, which determines how styles are applied based on
+          source, specificity, and order.
+        </p>
+        <p>
+          Styles closer to the element in the document tree and with higher
+          specificity take precedence over inherited styles.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
