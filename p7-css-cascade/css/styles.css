@@ -1,0 +1,46 @@
+* {
+  font-family: tahoma;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+  margin: 5% 15%;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  background-color: aqua;
+  padding: 2%;
+  margin: 2% 30%;
+}
+
+h1:hover {
+  background-color: blueviolet;
+  color: #efefef;
+}
+
+p {
+  background-color: pink;
+  padding: 1%;
+}
+
+p:hover {
+  background-color: greenyellow;
+  color: #efefef;
+}
+
+ol,
+ul {
+  background-color: crimson;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+ol:hover,
+ul:hover {
+  background-color: pink;
+  color: #efefef;
+}

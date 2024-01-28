@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>CSS Cascade</title>
+  </head>
+  <body>
+    <h1>CSS Cascade</h1>
+    <p>
+      In the context of CSS (Cascading Style Sheets), the term "cascade" refers
+      to the process by which styles are applied to HTML elements, taking into
+      account various sources and priorities. The cascade is a set of rules that
+      determine which styles should be applied when there are conflicting or
+      overlapping style declarations.
+    </p>
+    <p>
+      The CSS cascade operates based on a hierarchy of sources and specificity
+      levels. When you apply styles to HTML elements, the cascade determines
+      which styles take precedence in case of conflicts. Here are the key
+      factors in the CSS cascade:
+    </p>
+
+    <ol>
+      <li>Origin of Styles:</li>
+      <ul>
+        <li>
+          User Agent Stylesheet: Default styles provided by the browser for HTML
+          elements.
+        </li>
+        <li>
+          User Stylesheet: Styles specified by the user, often through browser
+          extensions or user settings.
+        </li>
+        <li>
+          Author Stylesheet: Styles provided by the web page author in the
+          linked or embedded CSS.
+        </li>
+      </ul>
+      <li>Specificity:</li>
+      <ul>
+        <li>
+          The specificity of a selector determines how specific it is in
+          targeting elements. For example, an ID selector (#example) is more
+          specific than a class selector (.example).
+        </li>
+        <li>
+          Specificity is crucial in resolving conflicts between different style
+          rules.
+        </li>
+      </ul>
+      <li>Order of Appearance:</li>
+      <ul>
+        <li>
+          Styles that appear later in the document or stylesheet can override
+          styles declared earlier for the same element.
+        </li>
+      </ul>
+      <li>Important Rule:</li>
+      <ul>
+        <li>
+          Styles marked with the !important rule have the highest specificity
+          and override other styles. However, it is generally recommended to use
+          !important sparingly, as it can make styles harder to manage and
+          debug.
+        </li>
+      </ul>
+    </ol>
+  </body>
+</html>
