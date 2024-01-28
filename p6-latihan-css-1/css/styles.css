@@ -1,0 +1,73 @@
+* {
+  font-family: tahoma;
+}
+
+body {
+  margin: 2% 25%;
+  background-color: pink;
+  color: blueviolet;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: #efefef;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.penulis {
+  color: goldenrod;
+}
+
+.tanggal {
+  color: crimson;
+}
+
+p {
+  text-align: justify;
+  text-indent: 10%;
+  margin: 2% 0;
+}
+
+#EarlyBeginnings {
+  color: red;
+}
+
+#RisetoProminence {
+  color: yellow;
+}
+
+#NotableAchievements {
+  color: green;
+}
+
+#GlobalImpact {
+  color: blue;
+}
+
+#GlobalImpact {
+  color: goldenrod;
+}
+
+#RecognitionastheBestProgrammer {
+  color: aqua;
+}
+
+#FarissVisionfortheFuture {
+  color: crimson;
+}
+
+#Conclusion {
+  color: black;
+}
