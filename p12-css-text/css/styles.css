@@ -1,0 +1,42 @@
+* {
+  font-family: tahoma;
+}
+
+body {
+  background-color: pink;
+}
+
+.container {
+  margin: 5% 15%;
+  background-color: blueviolet;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 3em;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  text-align: left;
+  height: 100%;
+  position: fixed;
+  width: 20%;
+  padding: 20px; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  color: cadetblue;
+  padding: 10px;
+  transition: color 0.3s ease; /* Efek perubahan warna selama 0.3 detik */
+}
+
+nav a:hover {
+  color: darkcyan; /* Warna yang diinginkan saat efek hover */
+}
