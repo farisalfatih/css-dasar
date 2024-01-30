@@ -1,0 +1,63 @@
+* {
+  font-family: tahoma;
+}
+
+.container > p {
+  margin: 0.4em 0;
+  text-indent: 1em;
+}
+
+h1 {
+  background-color: #ffb902;
+  margin: 0;
+  padding: 0.2em;
+  text-align: center;
+  border-bottom: 0.1em solid purple;
+}
+
+body {
+  background-color: #ffb096;
+  color: #efefef;
+}
+
+.container {
+  background-color: #e6958f;
+  padding: 1em;
+  text-align: justify;
+  margin: 3% 18%;
+}
+
+#code {
+  background-color: #221232;
+  padding: inherit;
+  margin: 1% 20%;
+  text-indent: 0;
+}
+
+.tag-code {
+  color: pink;
+}
+
+.coment {
+  color: dimgray;
+}
+
+.value-code {
+  color: gold;
+}
+
+p:hover {
+  background-color: aqua;
+  padding: 0.5em;
+}
+
+#code:hover {
+  background-color: rgb(53, 53, 41);
+  padding: 0.5em;
+  padding: inherit;
+}
+
+h1:hover {
+  box-shadow: 3px 3px purple, -3px -3px blue;
+  text-transform: uppercase;
+}
