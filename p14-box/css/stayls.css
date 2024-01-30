@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  background-color: chartreuse;
+  padding: 10px;
+}
+
+div {
+  padding: inherit;
+  margin: 5px;
+  height: 180px;
+}
+
+h3 {
+  text-align: center;
+  background-color: pink;
+  color: purple;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+p {
+  text-indent: 20px;
+  text-align: justify;
+  color: rgb(235, 244, 244);
+  background-color: blueviolet;
+  padding: 5px;
+  margin: 0%;
+}
+
+.box-model {
+  background-color: red;
+}
+
+.height-width {
+  background-color: yellow;
+}
+
+.max-height-min-width {
+  background-color: green;
+}
+
+.overflow {
+  background-color: blue;
+}
+
+div:hover {
+  background-color: black;
+}
+
+.overflow {
+  overflow: scroll;
+}
