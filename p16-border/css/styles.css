@@ -1,0 +1,81 @@
+* {
+  font-family: tahoma;
+}
+
+body {
+  background-color: darkolivegreen;
+  margin: 20px;
+}
+
+.container {
+  background-color: rgb(209, 231, 41);
+  margin: 1% 15%;
+  text-align: justify;
+}
+
+.container > p {
+  margin: 5px 0px;
+  margin: 5px;
+}
+
+p {
+  text-indent: 5%;
+}
+
+.container > p {
+  padding: 0px 10px;
+}
+
+h1 {
+  background-color: azure;
+  color: rgb(13, 48, 49);
+  text-transform: uppercase;
+  border-bottom: 2px solid purple;
+  text-align: center;
+}
+
+h2 {
+  margin: 0px;
+  font-size: medium;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.content {
+  display: inline-flex;
+  padding: 0px 10px;
+}
+
+.sub-materi {
+  padding: 5px;
+  background-color: aqua;
+  border-color: blue;
+  border-style: dashed;
+  border-width: 2px;
+}
+
+.contoh {
+  text-indent: 0;
+  background-color: black;
+  color: azure;
+  padding: 5px;
+  width: 170px;
+  text-align: left;
+}
+
+.sub-materi > .contoh {
+  margin-left: 5%;
+}
+
+.container > .contoh {
+  margin-left: 15%;
+  padding: 5px;
+}
+
+.sub-materi-2 {
+  margin: 0px 10px;
+}
+
+.sub-materi > p {
+  margin: 5px 0px;
+}
