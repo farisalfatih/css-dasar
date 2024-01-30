@@ -1,0 +1,51 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+body {
+  background-color: #f3e8ff;
+}
+
+.container {
+  background-color: #bacddb;
+  width: 75%;
+  margin: 2em auto;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 5px 20px;
+  text-indent: 1em;
+  color: #ce5959;
+}
+
+h1 {
+  background-color: #89375f;
+  text-transform: uppercase;
+  padding: 0.2em 0;
+  text-shadow: 3px 3px 0px black;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+#code {
+  width: fit-content;
+  background-color: rgb(5, 5, 89);
+  padding: 10px;
+  margin: 10px auto;
+  text-indent: 0;
+}
+
+.coment {
+  color: gray;
+}
+
+.tag-code {
+  color: green;
+}
+
+.value-code {
+  color: blueviolet;
+}
