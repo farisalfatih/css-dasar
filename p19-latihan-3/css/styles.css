@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: #efefef;
+}
+
+.container {
+  background-color: #f3e8ff;
+  margin-left: 22%;
+}
+
+.container-menu {
+  margin: 0px;
+  width: 21%;
+  background-color: #bacddb;
+  position: fixed;
+}
+
+.profil {
+  display: inline-flex;
+  padding: 12px;
+  margin-bottom: 17%;
+  background-color: #89375f;
+}
+
+.profil p {
+  padding-left: 10px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: #efefef;
+}
+
+.menu {
+  padding: 10px;
+  display: grid;
+}
+
+.menu a {
+  background-color: #ce5959;
+  padding: 3.68%;
+  margin: 1% 0;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(25, 6, 92);
+}
+
+.profil img {
+  border-radius: 50%;
+  height: 70px;
+}
+
+.footer {
+  background-color: black;
+  color: azure;
+  margin: 25% 0 0 0;
+  padding: 0.1em 1em;
+  text-align: justify;
+}
