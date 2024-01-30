@@ -1,0 +1,59 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #bfea6a;
+  padding: 0;
+  margin: 1%;
+}
+
+.container {
+  background-color: #f1ffde;
+  width: 75%;
+  margin: 0px auto;
+  padding: 0px 0px 10px;
+  text-transform: capitalize;
+}
+
+h1 {
+  background-color: #485551;
+  color: #efefef;
+  padding: 1%;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2.4px 2.4px 0 pink;
+}
+
+.paragraf-container {
+  text-indent: 3%;
+  padding: 3px 10px;
+  margin: 0px 10px 10px;
+  text-align: justify;
+  background-color: rgb(226, 160, 72);
+}
+
+.container-list {
+  display: flex;
+  margin: 5px auto;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.content {
+  background-color: pink;
+  width: 290px;
+  padding: 10px 13px;
+  border-style: dotted;
+  border-color: aqua;
+  margin: 5px;
+  border-width: 2px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.content a {
+  text-decoration: none;
+}
