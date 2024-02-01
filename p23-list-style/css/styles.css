@@ -1,0 +1,66 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: crimson;
+}
+
+.container {
+  width: 50%;
+  margin: 1% auto;
+  padding: 0.1% 1%;
+  background-color: chocolate;
+  text-align: justify;
+}
+
+p {
+  text-indent: 3%;
+  margin: 5px;
+  color: rgb(24, 7, 39);
+  background-color: brown;
+  padding: 10px;
+}
+
+ol {
+  margin: 5px;
+}
+
+h1 {
+  margin: 5px;
+  text-align: center;
+  margin: 0;
+  color: aliceblue;
+  padding: 5px;
+  background-color: blueviolet;
+  text-shadow: 3px 3px black;
+  text-transform: uppercase;
+  border-bottom: 2px solid;
+}
+
+.code {
+  color: greenyellow;
+  background-color: rgb(25, 21, 45);
+  font-weight: normal;
+  text-indent: 0;
+  padding: 10px;
+  width: fit-content;
+  margin: 3px auto;
+}
+
+.coment {
+  color: cadetblue;
+}
+
+.name-tag {
+  color: crimson;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+li {
+  padding: 5px;
+  background-color: aqua;
+}

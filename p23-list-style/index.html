@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>List Style</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>List Style</h1>
+      <p>
+        Dalam CSS, properti list-style digunakan untuk mengontrol gaya tampilan
+        daftar (ul, ol, dan dl). Properti ini memungkinkan Anda untuk mengatur
+        tiga aspek utama dari tampilan daftar: jenis marker, jenis bilangan
+        (jika menggunakan daftar terurut), dan gambar latar belakang untuk
+        daftar.
+      </p>
+      <p>
+        Nilai utama dari properti list-style adalah kombinasi dari tiga properti
+        terpisah: list-style-type, list-style-position, dan list-style-image. Di
+        bawah ini adalah penjelasan singkat tentang masing-masing properti:
+      </p>
+
+      <ol>
+        <li>
+          <b>list-style-type: </b>Menentukan jenis marker atau bilangan pada
+          daftar. Beberapa nilai umumnya melibatkan:
+        </li>
+        <ul>
+          <li><b>none:</b> Tidak ada marker atau bilangan.</li>
+          <li>
+            <b>disc:</b> Marker berbentuk bulatan (default untuk daftar tak
+            terurut).
+          </li>
+          <li>
+            <b>decimal:</b> Bilangan angka (default untuk daftar terurut).
+          </li>
+          <li><b>circle, square, dll.:</b> Jenis marker khusus.</li>
+        </ul>
+        <li>
+          <b>list-style-position:</b> Menentukan posisi marker atau bilangan.
+          Beberapa nilai umumnya melibatkan:
+        </li>
+        <ul>
+          <li>
+            <b>outside:</b> Marker atau bilangan berada di luar konten daftar.
+          </li>
+          <li>
+            <b>inside:</b> Marker atau bilangan berada di dalam konten daftar.
+          </li>
+        </ul>
+        <li>
+          <b>list-style-image:</b> Menentukan gambar yang digunakan sebagai
+          marker pada daftar. Nilai umumnya adalah URL gambar.
+        </li>
+      </ol>
+      <p>
+        Anda dapat menggabungkan ketiga properti ini dalam satu aturan CSS
+        menggunakan properti list-style. Misalnya:
+      </p>
+      <p class="code">
+        <span class="coment"
+          >/* Kombinasi jenis, posisi, dan gambar marker */</span
+        >
+        <br />
+        <span class="name-tag">list-style:</span> square inside
+        url('custom-marker.png');
+      </p>
+    </div>
+  </body>
+</html>
