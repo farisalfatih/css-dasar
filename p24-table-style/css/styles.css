@@ -1,0 +1,60 @@
+* {
+  font-family: verdana;
+}
+
+.container {
+  background-color: #dfa678;
+  padding: 20px;
+  width: 70%;
+  margin: 20px auto;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: #f4b183;
+}
+
+p {
+  text-indent: 2em;
+}
+
+th,
+td {
+  margin: 5px;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #fff2cc; /* Warna untuk baris genap */
+}
+
+tr:nth-child(odd) {
+  background-color: #ffd966; /* Warna untuk baris ganjil */
+}
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.header {
+  background-color: aqua;
+  border-top: 2px solid #ffb902;
+  border-bottom: 4px solid #210441;
+  font-size: small;
+}
+
+.name-property {
+  text-transform: capitalize;
+}
+
+.exaple-code {
+  background-color: rgb(2, 17, 38);
+  border-top: 2px solid #efefef;
+  color: palevioletred;
+}
